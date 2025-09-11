@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="1">
+        <title>Learning XML</title>
+        <author>John</author>
+        <year>2020</year>
+        <price>29.99</price>
+    </book>
+    <book id="2">
+        <title>Advanced XML</title>
+        <author>Aditya</author>
+        <year>2021</year>
+        <price>39.99</price>
+    </book>
+    <book id="3">
+        <title>XML for Dummies</title>
+        <author>mohan</author>
+        <year>2019</year>
+        <price>19.99</price>
+    </book>
+    <book id="4">
+        <title>XML in Practice</title>
+        <author>Manik</author>
+        <year>2022</year>
+        <price>49.99</price>
+    </book>
+</library>

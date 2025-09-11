@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>College Registration Form</title>
+</head>
+
+<body>
+  <h1>College Registration Form</h1>
+  <form action="register.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" required><br><br>
+    <label for="rollno">Roll No:</label>
+    <input type="number" name="rollno" id="rollno" required><br><br>
+    <label for="branch">Branch:</label>
+    <select name="branch" id="branch" required>
+      <option value="">Select</option>
+      <option value="CSE">CSE</option>
+      <option value="ECE">ECE</option>
+      <option value="MECH">MECH</option>
+    </select><br><br>
+    <label for="sem">Sem:</label>
+    <select name="sem" id="sem" required>
+      <option value="">Select</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+    </select><br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" name="password" id="password" required><br><br>
+    <input type="submit" value="Register">
+  </form>
+</body>
+
+</html>
